@@ -385,6 +385,10 @@ body {
   border-radius: 50%;
 }
 
+.swiper-pagination {
+  z-index: 99 !important;
+}
+
 .slider_man_name {
   font-size: 17px;
   font-weight: 500;
@@ -752,6 +756,7 @@ body {
   .swiper-pagination {
     left: 29% !important;
     top: 68% !important;
+    z-index: 99 !important;
   }
   .swiper-button-next {
     top: var(--swiper-navigation-top-offset, 70%) !important;
@@ -779,6 +784,7 @@ body {
   .swiper-pagination {
     left: 25% !important;
     top: 80% !important;
+    z-index: 99 !important;
   }
   .swiper-button-next {
     top: var(--swiper-navigation-top-offset, 81.5%) !important;
@@ -822,6 +828,7 @@ body {
 @media screen and (max-width: 900px) {
   .swiper-pagination {
     left: 25% !important;
+    z-index: 99 !important;
     top: 80% !important;
   }
   .swiper-button-next {
@@ -852,7 +859,8 @@ body {
 
   .swiper-pagination {
     left: 0 !important;
-    top: 67.5% !important;
+    top: 93.5% !important;
+    z-index: 99 !important;
   }
 
   .next {
@@ -920,7 +928,8 @@ body {
 
   .swiper-pagination {
     left: 0 !important;
-    top: 78% !important;
+    top: 95% !important;
+    z-index: 99 !important;
   }
 
   .next {
